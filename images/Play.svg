@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="370" height="370" viewBox="0 0 370 370">
+  <defs>
+    <filter id="Ellipse_36" x="0" y="0" width="370" height="370" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feFlood flood-opacity="0.725"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Polygon_1" x="87.931" y="74.569" width="207.931" height="220.862" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur-2"/>
+      <feFlood flood-opacity="0.725"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_715" data-name="Group 715" transform="translate(-704 -3808)">
+    <g transform="matrix(1, 0, 0, 1, 704, 3808)" filter="url(#Ellipse_36)">
+      <g id="Ellipse_36-2" data-name="Ellipse 36" transform="translate(60 60)" fill="none" stroke="#fff" stroke-width="10">
+        <circle cx="125" cy="125" r="125" stroke="none"/>
+        <circle cx="125" cy="125" r="120" fill="none"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 704, 3808)" filter="url(#Polygon_1)">
+      <path id="Polygon_1-2" data-name="Polygon 1" d="M50.431,0l50.431,87.931H0Z" transform="translate(235.86 134.57) rotate(90)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
